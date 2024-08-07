@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.links{
+    color: black;
+}
+.list-inline {
+    padding-right: 0;
+  }
+  h2 {
+    text-align: right;
+  }
+  .category a {
+    color: rgb(65, 56, 56);
+  }
+  .reverse-order {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .category {
+    margin-top: 1rem;
+  }
+  .custom-line-height {
+    line-height: 30px;
+  }
+  .custom-color {
+    color: black;
+  }
+  
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+  .nav-bar {
+    padding: 10px 20px;
+  }
+  .search-bar {
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .search-bar div {
+    padding: 10px;
+  }
+  .search-bar div i {
+    margin-left: auto;
+  }
+  .dropdown-menu a {
+    font-weight: 500;
+  }
+  .onMouseOver {
+    padding: 10px;
+  }
+  .onMouseOver:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .roundedCircle{
+    border-radius: 50%;
+    background-color: #FF385C;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .hideStayAndExperience {
+      display: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .showStayAndExperience {
+      display: none !important;
+    }
+  }
+  .onMouseOver {
+    padding: 10px;
+    font-weight: 600;
+  }
+  .onMouseOver:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .requestBtn {
+    background: linear-gradient(to right, #ff385c, #cc1662);
+    border: none;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .textFontSize {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .review-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .review-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .review-details {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .review-rating {
+    color: #000;
+    font-size: 1rem;
+  }
+  .review-body {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .hostCard {
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+
+  .cardText h4 {
+    font-weight: fontweight-bold;
+    color: black;
+    margin-bottom: 0;
+  }
+  .cardText h4 i {
+    font-size: 12px;
+  }
+  .cardText p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .image img {
+    border-radius: 50%;
+  }
+
+  .aboutHost i {
+    font-size: 25px;
+    padding-right: 13px;
+  }
+  .custom-button {
+    border: 1px solid #ccc;
+    color: #000;
+    background-color: transparent;
+}

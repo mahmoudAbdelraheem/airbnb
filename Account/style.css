@@ -1,0 +1,85 @@
+
+.list-inline {
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    text-align: left;
+}
+.category a {
+    color: rgb(65, 56, 56);
+}
+.reverse-order {
+    display: flex;
+      
+}
+.category {
+    margin-top: 1rem;
+}
+.card {
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  .footer {
+    margin-left: 450px;
+  }
+
+  .footer p {
+    margin-left: 50px;
+    text-decoration: underline;
+  }
+  .nav-bar {
+    padding: 10px 20px;
+  }
+  .search-bar {
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .search-bar div {
+    padding: 10px;
+  }
+  .search-bar div i {
+    margin-left: auto;
+  }
+  .dropdown-menu a {
+    font-weight: 500;
+  }
+  .onMouseOver {
+    padding: 10px;
+  }
+  .onMouseOver:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .roundedCircle {
+    border-radius: 50%;
+    background-color: #ff385c;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .hideStayAndExperience {
+      display: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .showStayAndExperience {
+      display: none !important;
+    }
+  }
+  body{
+    padding-top: 100px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
