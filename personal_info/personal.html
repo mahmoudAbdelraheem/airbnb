@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Info</title>
+    <link rel="stylesheet" href="./personal.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ! strat nav bar  -->
+    <nav class="bg-white m-0 p-0 sticky-top">
+      <div class="container pt-3">
+        <div class="row justify-content-between align-items-center nav-bar">
+          <div class="col-auto">
+            <img src="../home/logo.png" width="100" alt="Logo" />
+          </div>
+
+          <div class="col-auto d-flex align-items-center">
+            <p class="mb-0 me-3 onMouseOver fw-bold">Airbnb your home</p>
+            <i class="fa-solid fa-earth-asia mx-3 onMouseOver"></i>
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn border rounded-pill shadow-sm px-3"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    href="#exampleModal"
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Sign Up
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#exampleModal"
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Login
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Gift Card</a></li>
+                <li><a class="dropdown-item" href="#">Airbnb your home</a></li>
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="color: grey" />
+    </nav>
+    <!-- ! end nav bar  -->
+
+    <!-- ! start personal info body  -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-auto fs-6">
+          <p class="text-muted fw-bold">
+            Account <i class="mx-3 fa-solid fa-chevron-right"></i> Personal Info
+          </p>
+          <h1 class="text-muted fw-bold">Personal Info</h1>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-md-7">
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-5"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Legal Name</p>
+              <p class="text-muted">Mahmoud</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Edit</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Preferred Name</p>
+              <p class="text-muted">Not Provided</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Add</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Email Address</p>
+              <p class="text-muted">m***1@gmail.com</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Edit</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Phone Number</p>
+              <p class="text-muted">
+                Add a number so confirmed guests and Airbnb can get in touch.
+                You can add other numbers and choose how they’re used.
+              </p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Add</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Government ID</p>
+              <p class="text-muted">Not Provided</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Add</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Address</p>
+              <p class="text-muted">Not Provided</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Add</p>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between border-bottom pb-3 mt-4"
+          >
+            <div>
+              <p class="fw-bold p-0 m-0">Emergency Contact</p>
+              <p class="text-muted">Not Provided</p>
+            </div>
+            <p class="fw-bold onMouseOver text-decoration-underline">Add</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="border rounded-3 p-3 mt-5">
+            <div class="border-bottom">
+              <img src="./lock.PNG" class="image-fluid my-3" />
+              <h4 class="fw-bold mb-3">Why isn’t my info shown here?</h4>
+              <p class="text-muted fw-medium pb-3">
+                We’re hiding some account details to protect your identity.
+              </p>
+            </div>
+            <div class="border-bottom">
+              <img src="./lock2.PNG" class="image-fluid my-3" />
+              <h4 class="fw-bold mb-3">Which details can be edited?</h4>
+              <p class="text-muted fw-medium pb-3">
+                Contact info and personal details can be edited. If this info
+                was used to verify your identity, you’ll need to get verified
+                again the next time you book – or to continue hosting.
+              </p>
+            </div>
+            <div>
+              <img src="./eye.PNG" class="image-fluid my-3" />
+              <h4 class="fw-bold mb-3">What info is shared with others?</h4>
+              <p class="text-muted fw-medium pb-3">
+                Airbnb only releases contact information for Hosts and guests
+                after a reservation is confirmed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! end personal info body  -->
+
+    <!-- ! start footer   -->
+    <footer class="mt-5 bg-light border-top">
+      <div class="container">
+        <div class="row reverse-order">
+          <div class="category col-4 mt-4 text-left">
+            <h5>Support</h5>
+            <ul class="list-inline text-left">
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Help Center</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  AirCover
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Anti-discrimination</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Disability support</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Disability support</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="category col-4 mt-4 text-left">
+            <h5>Hosting</h5>
+            <ul class="list-inline text-left">
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Airbnb your home
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  AirCover for Hosts
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Hosting resources</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Community forum</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Hosting responsibly</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Airbnb-friendly apartments</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Join a free Hosting class</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="category col-4 mt-4 text-left">
+            <h5>Airbnb</h5>
+            <ul class="list-inline text-left">
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Newsroom</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  New features
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#"> Careers</a>
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Investors</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Gift cards</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-muted" href="#">
+                  Airbnb.org emergency stays
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row">
+          <div class="category col-6 mt-2">
+            <ul class="list-inline text-right font-weight-bold">
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#"
+                  ><i class="fa-brands fa-square-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#"
+                  ><i class="fa-brands fa-square-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#">
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#"
+                  >English (US)</a
+                >
+              </li>
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#"> $ USD</a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <a class="text-decoration-none text-muted" href="#">
+                  <i class="fa-solid fa-globe"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="category col-6 mt-2">
+            <ul class="list-inline text-left font-weight-bold">
+              <li class="list-inline-item">
+                <a class="text-decoration-none text-muted" href="#"
+                  >© 2024 Airbnb, Inc</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a class="text-decoration-none text-muted" href="#">Terms </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-decoration-none text-muted" href="#"> Sitemap</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-decoration-none text-muted" href="#">Privacy</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-decoration-none text-muted" href="#">
+                  Your Privacy Choices</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ! end footer   -->
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+</html>

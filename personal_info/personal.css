@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.onMouseOver {
+    padding: 10px;
+  }
+  .onMouseOver:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
